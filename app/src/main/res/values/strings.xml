@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">formation</string>
+    <string name="app_name1">HARD</string>
+    <string name="app_Soft">SOFT</string>
+    <string name="app_Web">WEB</string>
+    <string name="app_Mobile">MOBILE</string>
+    <string name="app_Desktop">DESKTOP</string>
+    <string name="APP">ECJE</string>
+    <string name="Adr">E_mail</string>
+    <string name="Name">Name</string>
+    <string name="Prenom">domaine</string>
+    <string name="Phone">phone</string>
+</resources>

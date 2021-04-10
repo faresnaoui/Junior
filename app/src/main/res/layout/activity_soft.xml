@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Blue"
+    tools:context="com.example.a1.soft">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    </Space>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp"
+                android:hint="@string/Name"
+                android:textColorHint="@color/Gris"
+                android:textColor="@color/black"
+                android:background="@drawable/round_edit"
+                android:paddingLeft="20dp"
+                android:id="@+id/Namels"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:hint="@string/Prenom"
+                android:textColorHint="@color/Gris"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/Nicknamels"
+                android:background="@drawable/round_edit"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="45dp"
+                android:hint="@string/Adr"
+                android:textColorHint="@color/Gris"
+                android:textColor="@color/black"
+                android:background="@drawable/round_edit"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/Emails"
+                android:layout_marginLeft="10dp"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:hint="@string/Phone"
+                android:textColorHint="@color/Gris"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/Phones"
+
+                android:background="@drawable/round_edit"/>
+
+
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/add"
+            android:backgroundTint="@color/Blue"
+            android:id="@+id/Adds">
+        </ImageButton>
+
+
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rectangle"
+            android:id="@+id/listViews"
+            android:layout_margin="20dp"
+            android:padding="20dp">
+
+
+
+
+        </ListView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
